@@ -1,0 +1,1039 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    font-size: 24px;
+}
+
+h1 {
+    font-family: 'Roboto Slab';
+}
+
+.first-logo {
+    width: 7vw;
+    height: 6vh;
+    position: relative;
+    top: 1vh;
+}
+
+.work-info {
+    margin-top: 9vh;
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.global-img,
+.time-img,
+.calendar-img {
+    width: 22px;
+    height: 22px;
+}
+
+.global-p,
+.time-p,
+.calendar-p {
+    width: 9vw;
+    height: 3vh;
+    display: inline;
+}
+
+.h1-image {
+    display: flex;
+    justify-content: space-between;
+}
+
+.head-info {
+    height: 24vh;
+
+}
+
+.head-h1 {
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 101.38%;
+    width: 50vw;
+    height: 18vh;
+    margin-bottom: 5vh;
+}
+
+.addition {
+    padding-top: 0;
+    width: 26vw;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.image3 {
+    width: 304px;
+    height: 356px;
+}
+
+.box {
+    width: 28vw;
+    height: 21vh;
+    background-color: #1E4681;
+    border-radius: 5px;
+    color: white;
+    margin-left: 30vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.box-p {
+    width: 22vw;
+    height: 10vh;
+    font-size: 20px;
+    line-height: 130%;
+    font-family: 'Roboto Slab';
+    font-weight: 400;
+    padding: 2vh;
+}
+
+.box-author {
+    width: 27vw;
+    height: 2vh;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: right;
+    margin-top: -1vh;
+}
+
+.flex1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex2 {
+    display: flex;
+    align-items: center;
+}
+
+.main-h1 {
+    width: 25vw;
+    height: 8vh;
+}
+
+.img1 {
+    margin-top: 4vh;
+    width: 314px;
+    height: 315px;
+    margin-left: 20vw;
+}
+
+.img2 {
+    margin-top: 8vh;
+    margin-right: 9vw;
+}
+
+.foot-item {
+    display: block;
+}
+
+h4 {
+    margin-top: 15vh;
+    margin-bottom: 0px;
+    width: 10vw;
+    height: 4vh;
+}
+
+.text1,
+.text2,
+.text3 {
+    font-size: 18px;
+    margin-top: 0px;
+    width: 10vw;
+    height: 4vh;
+}
+
+.head1,
+.text1 {
+    margin-right: 6vw;
+}
+
+.head2,
+.text2 {
+    margin-right: 6vw;
+}
+
+.head3,
+.text3 {
+    margin-right: 21vw;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.basliq {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 101.38%;
+    color: #000000;
+    left: 11vh;
+    margin-top: 15vh;
+}
+
+.div-info {
+    width: 18vw;
+    margin-right: 8vw;
+    font-size: 18px;
+}
+
+.pclass {
+    color: #1E4681;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.second {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 23vh;
+}
+
+.sentence {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 0px;
+
+}
+
+.box1 {
+    height: 35vh;
+    width: 27vw;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    margin-bottom: 2vh;
+}
+
+.box8 {
+    height: 35vh;
+    width: 27vw;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    margin-bottom: 2vh;
+    margin-right: 28vw;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box-image {
+    width: 27vw;
+    height: 15vh;
+}
+
+.box-info {
+    width: 25vw;
+    height: 6vh;
+    font-size: 25px;
+    line-height: 130%;
+    margin-left: 1.5vw;
+    margin-top: 5vh;
+}
+
+.box-info8 {
+    margin-top: -1vh;
+    margin-left: 1.5vw;
+}
+
+.heading {
+    position: absolute;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 101.38%;
+    margin-left: 8vw;
+    margin-top: 8vh;
+}
+
+.card {
+    position: absolute;
+    width: 50vw;
+    height: 55vh;
+    margin-left: 9vw;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    margin-bottom: 8vh;
+    margin-top: 20vh;
+    margin-left: 8vw;
+}
+
+.info {
+    background: #EFEFEF;
+    height: 780px;
+    margin-top: 11vh;
+    position: relative;
+    margin-left: -8vw;
+    margin-right: -8vw;
+}
+
+.about {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    margin: 45px;
+    position: absolute;
+}
+
+.avatar {
+    width: 13vw;
+    height: 16vh;
+    position: absolute;
+    bottom: 30px;
+    display: inline-block;
+
+}
+
+.name {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 101.38%;
+    position: absolute;
+    bottom: 13vh;
+    left: 12vw;
+}
+
+.fb-avatar {
+    width: 32px;
+    height: 31px;
+    position: absolute;
+    left: 12vw;
+    top: 43vh;
+}
+
+#p1 {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 101.38%;
+    color: #000000;
+    position: absolute;
+    margin-top: 18vh;
+    margin-left: 8vw;
+}
+
+#date-course {
+    margin-top: -8vh;
+    height: 780px;
+    margin-left: -8vw;
+    margin-right: -8vw;
+    background: #9DC9C8;
+}
+
+#p2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 101.38%;
+    position: absolute;
+    margin-top: 38vh;
+    margin-left: 8vw;
+}
+
+#p3 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 101.38%;
+    position: absolute;
+    margin-top: 41vh;
+    margin-left: 8vw;
+}
+
+#section1 {
+    position: absolute;
+    margin-top: 62vh;
+    margin-left: 8vw;
+    width: 21%;
+}
+
+.p4 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 101.38%;
+}
+
+.p5 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 101.38%;
+}
+
+#section2 {
+    position: absolute;
+    margin-top: 62vh;
+    width: 21%;
+    right: 44%;
+
+}
+
+footer {
+    height: 390px;
+    margin-left: -8vw;
+    margin-right: -8vw;
+    background-color: #000000;
+}
+
+#logo-mobile {
+    margin-top: 13vh;
+    margin-left: 8vw;
+}
+
+.logo {
+    margin-left: 8vw;
+    margin-right: 18px;
+}
+
+.logo1 {
+    margin-right: 21px;
+}
+
+.logo2 {
+    margin-right: 25px;
+}
+
+.logo,
+.logo1,
+.logo2,
+.logo3 {
+    margin-top: 30px;
+}
+
+#number {
+    display: inline-block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 101.38%;
+    color: #FFFFFF;
+}
+
+#about {
+    position: relative;
+    left: 68vw;
+    bottom: 21vh;
+}
+
+#mail {
+    display: inline-block;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 101.38%;
+    color: #FFFFFF;
+}
+
+#about1 {
+    position: relative;
+    left: 68vw;
+    bottom: 26vh;
+}
+
+@media (max-width:1280px) {
+    .work-info {
+        width: 50vw;
+    }
+
+    .head-info {
+        height: 24vh;
+    }
+
+    .head-h1 {
+        font-size: 46px;
+        margin-bottom: -6vh;
+    }
+
+    .addition {
+        padding-top: 0;
+        width: 31vw;
+        font-size: 12px;
+    }
+
+    .image3 {
+        width: 176px;
+        height: 206px;
+    }
+
+    .box {
+        width: 33vw;
+        height: 15vh;
+        margin-left: 28vw;
+    }
+
+    .box-p {
+        width: 23vw;
+        height: 5vh;
+        font-size: 14px;
+    }
+
+    .box-author {
+        width: 19vw;
+        height: 2vh;
+        font-size: 12px;
+        margin-left: 15vh;
+        margin-top: 0;
+    }
+
+    .main-h1 {
+        font-size: 32px;
+    }
+
+    .flex1 section p {
+        font-size: 14px;
+    }
+
+    .img1,
+    .img2 {
+        width: 181px;
+        height: 182px;
+    }
+
+    h4 {
+        width: 12vw;
+    }
+
+    .text1,
+    .text2,
+    .text3 {
+        font-size: 11px;
+    }
+
+    .box2 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .basliq {
+        font-size: 32px;
+        left: 11vh;
+        margin-top: 15vh;
+    }
+
+    .div-info {
+        width: 18vw;
+        margin-right: 8vw;
+        font-size: 11px;
+    }
+
+    .pclass {
+        font-size: 15px;
+    }
+
+    .second {
+        width: 44vw;
+        font-size: 14px;
+    }
+
+    .sentence {
+        width: 25vw;
+        font-size: 17px;
+    }
+
+    .box-image {
+        width: 27vw;
+        height: 15vh;
+    }
+
+    .box-info,
+    .box-info8 {
+        width: 25vw;
+        font-size: 14px;
+    }
+
+    .heading {
+        font-size: 32px;
+    }
+
+    .card {
+        width: 45vw;
+        height: 40vh;
+        margin-top: 15vh;
+    }
+
+    .info {
+        height: 451px;
+        margin-top: 11vh;
+        margin-left: -8vw;
+        margin-right: -8vw;
+    }
+
+    .about {
+        width: 40vw;
+        font-size: 12px;
+    }
+
+    .avatar {
+        width: 13vw;
+        height: 16vh;
+        position: absolute;
+        bottom: 30px;
+        display: inline-block;
+
+    }
+
+    .name {
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 101.38%;
+        position: absolute;
+        bottom: 13vh;
+        left: 12vw;
+    }
+
+    .fb-avatar {
+        width: 2vw;
+        height: 2.5vh;
+        top: 28vh;
+    }
+
+    #p1 {
+        font-size: 32px;
+        margin-top: 18vh;
+        margin-left: 8vw;
+    }
+
+    #date-course {
+        margin-top: -8vh;
+        height: 451px;
+        margin-left: -8vw;
+        margin-right: -8vw;
+        background: #9DC9C8;
+    }
+
+    #p2 {
+        font-size: 14px;
+        margin-top: 28vh;
+    }
+
+    #p3 {
+        font-size: 46px;
+        margin-top: 30vh;
+    }
+
+    .p4 {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 101.38%;
+    }
+
+    .p5 {
+        font-size: 10px;
+        width: 16vw;
+    }
+
+    #section1,
+    #section2 {
+        margin-top: 40vh;
+    }
+
+    footer {
+        height: 225px;
+    }
+
+    #logo-mobile {
+        width: 66px;
+        height: 39px;
+        margin-top: 5vh;
+    }
+
+    .logo {
+        margin-right: 0.5vw;
+    }
+
+    .logo1 {
+        margin-right: 0.5vw;
+    }
+
+    .logo2 {
+        margin-right: 0.5vw;
+    }
+
+    .logo,
+    .logo1,
+    .logo2,
+    .logo3 {
+        margin-top: 1vw;
+        width: 19px;
+        height: 19px;
+    }
+
+    #about {
+        position: relative;
+        left: 68vw;
+        bottom: 9vh;
+    }
+
+    #mail,
+    #number {
+        font-size: 14px;
+    }
+
+    #about1 {
+        position: relative;
+        left: 68vw;
+        bottom: 11vh;
+
+    }
+
+    @media(min-width:320px) and (max-width:991px) {
+        body {
+            margin-left: 9vw;
+        }
+
+        .first-logo {
+            width: 20vw;
+            height: 8vh;
+        }
+
+        .work-info {
+            margin-top: 3vh;
+            width: 65vw;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .global-img,
+        .time-img,
+        .calendar-img {
+            width: 10px;
+            height: 9px;
+        }
+
+        .global-p,
+        .time-p,
+        .calendar-p {
+            font-size: 10px;
+            width: 16vw;
+            height: 4vh;
+            display: inline;
+        }
+
+        .h1-image {
+            display: block;
+        }
+
+        .head-info {
+            height: 24vh;
+        }
+
+        .head-h1 {
+            font-size: 37px;
+            width: 82vw;
+            height: 18vh;
+            margin-left: 0;
+        }
+
+        .addition {
+            margin-top: -7vh;
+            width: 62vw;
+            font-size: 10px;
+            margin-left: 0vw;
+        }
+
+        .image3 {
+            width: 141px;
+            height: 175px;
+            margin-left: 60vw;
+            margin-top: -10vh;
+        }
+
+        .box {
+            width: 75vw;
+            height: 15vh;
+            margin-left: 0vw;
+        }
+
+        .box-p {
+            width: 60vw;
+            font-size: 11px;
+        }
+
+        .box-author {
+            width: 40vw;
+            height: 2vh;
+            font-size: 10px;
+            margin-top: 0vh;
+            margin-left: 30vw;
+        }
+
+        .flex1 {
+            display: block;
+        }
+
+        .flex2 {
+            flex-wrap: wrap;
+        }
+
+        .flex1 section p {
+            font-size: 12px;
+            width: 95vw;
+        }
+
+        .img1 {
+            margin-top: 0;
+            width: 146px;
+            height: 146px;
+            margin-left: 24vw;
+        }
+
+        .img2 {
+            display: none;
+        }
+
+        h4 {
+            font-size: 12px;
+            margin-top: 8vh;
+            margin-bottom: 0px;
+            width: 30vw;
+            height: 2vh;
+        }
+
+        .text1,
+        .text2,
+        .text3 {
+            font-size: 10px;
+            margin-top: 0px;
+            width: 25vw;
+            height: 4vh;
+        }
+
+        .head3,
+        .text3 {
+            margin-top: 0;
+        }
+
+        .basliq {
+            font-size: 26px;
+            margin-left: 0;
+            margin-top: 5vh;
+        }
+
+        .section2 .box2 {
+            width: 75vw;
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+        }
+
+        .pclass {
+            width: 50vw;
+            font-size: 12px;
+        }
+
+        .div-info {
+            width: 55vw;
+            font-size: 10px;
+        }
+
+        .second {
+            width: 76vw;
+            margin-left: -22px;
+            font-size: 12px;
+            line-height: 150%;
+            margin-bottom: 8vh;
+        }
+
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .box-info,
+        .box-info8 {
+            font-size: 12px;
+            width: 55vw;
+            margin-left: 6vw;
+        }
+
+        .sentence {
+            font-size: 14px;
+            width: 55vw;
+            line-height: 130%;
+        }
+
+        .box1,
+        .box8 {
+            margin-left: 21vw;
+            margin-right: 29.6vw;
+            width: 60vw;
+            height: 32vh;
+        }
+
+        .box-image {
+            width: 60vw;
+            height: 16vh;
+        }
+
+        .heading {
+            font-size: 26px;
+        }
+
+        .card {
+            width: 117vw;
+            height: 35vh;
+            margin-top: 17vh;
+        }
+
+        .info {
+            height: 451px;
+            margin-right: -80vw;
+            margin-left: -9vw;
+        }
+
+        .about {
+            width: 100vw;
+            font-size: 10px;
+        }
+
+        .avatar {
+            width: 27vw;
+            height: 20vh;
+            bottom: -4vh;
+            left: 8vw;
+        }
+
+        .name {
+            font-size: 14px;
+            bottom: 8vh;
+            left: 35vw;
+        }
+
+        .fb-avatar {
+            width: 14px;
+            height: 17px;
+            left: 38vw;
+            top: 28vh;
+        }
+
+        #p1 {
+            margin-top: 15vh;
+            font-size: 26px;
+        }
+
+        #date-course {
+            height: 363px;
+            margin-left: -9vw;
+            margin-right: -80vw;
+        }
+
+        #p2 {
+            font-size: 12px;
+            margin-top: 28vh;
+        }
+
+        #p3 {
+            font-size: 37px;
+            margin-top: 30vh;
+        }
+
+        #section1 {
+            position: absolute;
+            margin-top: 35vh;
+            margin-left: 8vw;
+            width: 50vw;
+        }
+
+        .p4 {
+            font-size: 12px;
+            width: 50vw;
+        }
+
+        .p5 {
+            width: 40vw;
+            font-size: 10px;
+        }
+
+        #section2 {
+            position: absolute;
+            margin-top: 35vh;
+            left: 70vw;
+        }
+
+        footer {
+            height: 251px;
+            margin-left: -9vw;
+            margin-right: -80vw;
+        }
+
+        #logo-mobile {
+            margin-top: 4vh;
+        }
+
+        .logo {
+            margin-left: 8vw;
+            margin-right: 1vw;
+        }
+
+        .logo1 {
+            margin-right: 1vw;
+        }
+
+        .logo2 {
+            margin-right: 1vw;
+        }
+
+        .logo,
+        .logo1,
+        .logo2,
+        .logo3 {
+            margin-top: 2vh;
+        }
+
+        #number {
+            font-size: 12px;
+        }
+
+        #about {
+            position: relative;
+            left: 8vw;
+            bottom: -6vh;
+        }
+
+        #mail {
+            font-size: 12px;
+        }
+
+        #about1 {
+            left: 8vw;
+            bottom: -4vh;
+        }
+    }
+}
